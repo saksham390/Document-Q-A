@@ -167,6 +167,4 @@ RAG differs from fine-tuning: fine-tuning changes model behavior or style using 
 
 Spring AI provides consistent Java abstractions for chat models, embedding models, document readers, splitters, and vector stores. That keeps application code small and makes it easier to change supported providers.
 
-## Version note
 
-Spring AI APIs and property names evolve. This project targets Spring AI `1.0.0`. In another release, the Pinecone starter artifact, property prefix, splitter builder methods, or `SearchRequest` builder may differ. Check the matching Spring AI reference documentation and update the small integration points rather than changing the overall architecture.
