@@ -145,7 +145,7 @@ src/main/java/com/example/rag/
     └── InvalidDocumentException.java
 ```
 
-## Important Spring AI classes
+##  Spring AI 
 
 - `PagePdfDocumentReader`: extracts PDF pages as Spring AI `Document` objects and retains page metadata.
 - `TokenTextSplitter`: breaks large pages into smaller chunks so retrieval can find focused passages.
@@ -155,7 +155,7 @@ src/main/java/com/example/rag/
 - `ChatClient`: sends the system instruction and retrieved context to the configured chat model.
 - `ChatClient.Builder`: auto-configured by the OpenAI starter and used to create the application client.
 
-## RAG in interview language
+## RAG 
 
 RAG means Retrieval-Augmented Generation. Instead of asking the LLM to remember every document, the application first retrieves relevant passages and gives them to the LLM as context. The model then writes an answer grounded in those passages.
 
